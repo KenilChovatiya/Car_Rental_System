@@ -1,0 +1,38 @@
+.reservation_info{
+    grid-template-columns: auto auto;
+}
+
+.confirm_reservation h6{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.confirm_reservation p{
+    color: #6e6969;
+}
+
+@media only screen and (max-width:1199px){
+
+}
+
+@media only screen and (max-width:991px){
+    .reservation_info{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .reservation_info{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:480px){
+    .reservation_info{
+        grid-template-columns: auto;
+    }
+}

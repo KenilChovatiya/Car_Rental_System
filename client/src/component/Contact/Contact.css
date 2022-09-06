@@ -1,0 +1,12 @@
+.contact_form{
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+}
+
+.contact_info p, .contact_info a{
+    font-size: 18px;
+    color: #4e5d78!important;
+}

@@ -1,0 +1,17 @@
+.MuiPaper-root {
+  background-color: rgb(237,241,247)!important;
+}
+
+.MuiStepConnector-line {
+    display: none !important;
+  }
+  
+  .MuiStepConnector-root {
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+  
+  .MuiStepConnector-active,
+  .MuiStepConnector-completed {
+    background-color: var(--Main_color)!important;
+  }

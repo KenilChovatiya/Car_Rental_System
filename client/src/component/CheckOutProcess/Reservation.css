@@ -1,0 +1,31 @@
+.text_field{
+    width: 48%;
+}
+
+.text_filed_2{
+    width: 31%;
+}
+
+@media only screen and (max-width:1199px){
+    .text_filed_2{
+        width: 46%;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .text_field{
+        width: 100%;
+    }
+    
+    .text_filed_2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px){}
+
+@media only screen and (max-width:640px){
+
+}
+
+@media only screen and (max-width:480px){}

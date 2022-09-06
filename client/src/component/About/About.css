@@ -1,0 +1,91 @@
+.about_banner_content {
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.about_banner_content p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.work_section2 {
+    /* background: linear-gradient(90deg, rgb(241,240,245) 35%, #fff 0%); */
+    margin: 90px 0;
+}
+
+.work_section2 .heading_h3 {
+    font-size: 50px;
+}
+
+.suceess_icon_div {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+
+.work_img1 {
+    width: 90%;
+    height: 500px;
+    border-radius: 0 10px 10px 10px;
+}
+
+.work_img2 {
+    width: 30%;
+    height: 80px;
+    border: 3.5px solid var(--SecondColor);
+    border-radius: 10px;
+}
+
+
+.testimonial_inner_item{
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+	margin: 20px 0;
+	padding: 25px;
+	border-radius: 8px;
+}
+
+.testimonial_member{
+	justify-content: left;
+}
+
+.testimonial_member img{
+	border-radius: 50%;
+    width: 55px;
+    margin-right: 20px;
+}
+
+.testimonial_member h4,.testimonial_member p{
+	margin: 0;
+}
+
+
+@media only screen and (max-width:1199px) {}
+
+@media only screen and (max-width:991px) {
+    .about_banner_content {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .work_img1,
+    .contact_img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about_banner_content {
+        grid-template-columns: 100%;
+    }
+
+    .about_banner_content img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:640px) {}
+
+@media only screen and (max-width:480px) {}

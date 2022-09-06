@@ -1,0 +1,106 @@
+.car_details .car_img {
+    width: 59%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+    border: 1px solid #fff;
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+}
+
+.car_img .slider-wrapper .slider .slide img {
+    border-radius: 20px;
+    height: 442px;
+}
+
+.car_details .car_info {
+    width: 38%;
+    border-radius: 20px;
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+    border: 1px solid #fff;
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+}
+
+.car_details .card_desc_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.car_details .thumbs-wrapper ul {
+    padding: 0;
+}
+
+.car_img .thumbs-wrapper > ul.thumbs {
+    margin-bottom: 0;
+}
+
+.car_img .thumbs-wrapper .thumbs .thumb {
+    border-radius: 13px;
+}
+
+.car_img .thumbs-wrapper .thumbs .thumb img {
+    border-radius: 13px;
+    height: 80px;
+}
+
+.car_qty input {
+    border: none;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    outline: none;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+
+.car_qty>button {
+    border: none;
+    background-color: var(--Main_color);
+    padding: 5px;
+    width: 40px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.car_qty>button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+
+@media only screen and (max-width:1199px) {
+    .car_details .car_img {
+        width: 55%;
+    }
+
+    .car_details .car_info {
+        width: 42%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .car_details .car_img {
+        width: 100%;
+    }
+
+    .car_details .car_info {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .car_img .slider-wrapper .slider .slide img {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:640px) {
+    .speedDial {
+        right: 4%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .car_details .card_desc_grid {
+        grid-template-columns: auto;
+    }
+}

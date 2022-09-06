@@ -1,0 +1,95 @@
+.home_banner{
+    background-image: linear-gradient(rgb(0, 00, 00, 0.5), rgb(0, 00, 00, 0.5)),url(../../images/bg3.webp);
+    /* background-image: linear-gradient(rgba(57, 84, 129, 0.5), rgba(60, 90, 138, 0.5)),url(../../images/bg3.webp); */
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+    height: 94vh;
+    display: grid;
+    place-items: center;
+    /* padding: 125.5px */
+}
+
+.heading_h1_banner{
+    color: #fff;
+}
+
+.card_desc_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.car_card{
+    border-radius: 20px;
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+    border: 1px solid #fff;
+}
+
+.car_img_carCard{
+    height: 200px;
+    border-radius: 20px;
+}
+
+.find_form_banner .common_btn:hover{
+    background-color: red;
+}
+
+.services_item{
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid transparent;
+    transition: 0.5s ease;
+    transition-property: box-shadow, border-color, background-color;
+}
+
+.services_item svg{
+    width: 55px;
+    height: 55px;
+    color: var(--Main_color);
+}
+
+.services_item_row .services_item p{
+    font-size: 18px;
+    color: #4e5d78!important;
+    line-height: 26px;
+}
+
+
+@media only screen and (max-width:1199px){
+    .home_content{
+        width: 100%!important;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .heading_h1_banner{
+        width: 100%!important;
+    }
+    .find_form_banner{
+        width: 75%!important;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .find_form_banner{
+        width: 100%!important;
+    }
+}   
+
+@media only screen and (max-width:640px){
+    /* .home_banner{
+        padding: 70px 10.5px;
+    } */
+
+    .home_banner h1{
+        font-size: 30px;
+    }
+
+    .home_banner h4{
+        font-size: 20px;
+    }   
+}
+
+@media only screen and (max-width:480px){}

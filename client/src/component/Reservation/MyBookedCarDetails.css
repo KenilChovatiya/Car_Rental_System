@@ -1,0 +1,20 @@
+.bookedcar_img{
+    width: 100%;
+}
+
+.booked_car_information{
+    grid-template-columns: 40% auto;
+    grid-gap: 20px;
+}
+
+.booked_car_reservation_info{
+    grid-template-columns: auto auto;
+}
+
+.booked_car_reservation_info h6, .booked_car_reservation_info2 h6{
+    font-weight: bold;
+}
+
+.booked_car_reservation_info p{
+   color: rgb(97, 96, 96);
+}

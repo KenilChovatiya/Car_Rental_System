@@ -1,0 +1,65 @@
+.booked_cars{
+    margin-bottom: 305px!important;
+}
+
+.booked_car_div{
+    background: linear-gradient(1turn, #f1f6fd 30%, #edf1f7);
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+    border: 2px solid #fff;
+    transition: background .5s ease;
+}
+
+.booked_car_div:hover{
+    background: linear-gradient(1turn, #fff 30%, #fff);
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 10%);
+    border: 2px solid #f1f6fd;
+}
+
+.booked_car_div > a{
+    width: 90%;
+}
+
+.booked_car{
+    grid-template-columns: 20% 20% 15% 25% 15%;
+    align-items: center;    
+}
+
+.btn_vc{
+    width: 70px;
+}
+
+.booked_car_list_empty{
+    margin: 136px 0;
+}
+
+.booked_car_list_empty img{
+    width: 100px;
+}
+
+@media only screen and (max-width:1199px){
+  
+}
+
+@media only screen and (max-width:991px){
+    .booked_car{
+        grid-template-columns: 20% 30% 20% 30%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .booked_car{
+        grid-template-columns: 40% 30% 30%;
+        align-items:flex-start;    
+    }
+}
+
+@media only screen and (max-width:640px){
+    
+}
+
+@media only screen and (max-width:480px){
+    .booked_car{
+        grid-template-columns: 40% 60%;
+        align-items:center;    
+    }
+}

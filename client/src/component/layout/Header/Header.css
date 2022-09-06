@@ -1,0 +1,56 @@
+.my_navbar {
+    background-color: rgb(229, 234, 242) !important;
+    /* background-color: rgb(237,241,247)!important; */
+    box-shadow: 3px 3px 9px rgb(164 164 186 / 20%);
+}
+
+.speedDial {
+    position: fixed;
+    top: 8px;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    border: 0;
+    background: white;
+}
+
+.my_navbar .navbar-brand{
+    width: 140px;
+}
+
+
+.my_navbar .navbar-nav .nav-item .nav-link{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.logo{
+    width: 80%;
+}
+
+
+@media only screen and (max-width:1199px){
+    .speedDial {
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .speedDial {
+        right: 9%;
+    }
+}
+
+@media only screen and (max-width:767px){}
+
+@media only screen and (max-width:640px){
+    .speedDial {
+        right: 4%;
+    }
+}
+
+@media only screen and (max-width:480px){}

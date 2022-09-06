@@ -1,0 +1,71 @@
+.payment_meyhod{
+    border: 2px solid rgb(211, 211, 211);
+}
+
+.mynav_tab .mynavpills li{
+    padding: 0 10px;
+}
+
+.mynav_tab .mynavpills li a{
+    width: 200px;
+    height: 90px;
+    border: 2px solid rgb(149, 146, 146);
+}
+
+.mynavpills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff!important;
+    background-color: var(--Main_color);
+    border-color: var(--Main_color);
+}
+
+.mynavpills .nav-link.active .codimg {
+    filter: invert(1);
+}
+
+.mynavpills .nav-link.active h6 {
+  color: #fff!important;
+}
+
+.paymentForm{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.paymentForm > div {
+    display: flex;
+    align-items: center;
+    margin: 1vmax 0;
+  }
+  
+  .paymentInput {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .paymentForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  .paymentFormBtn {
+    border: none;
+    background-color: var(--Main_color);
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  
+  .paymentFormBtn:hover {
+    background-color: rgb(7, 127, 171);
+  } 
